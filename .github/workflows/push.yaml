@@ -1,0 +1,15 @@
+# Action에서 표시되는 이름
+name: push-workflow
+# 트리커할 이벤트
+on: push
+
+# 실행할 job의 집합
+jobs:
+  # job 이름
+  push-job:
+    # 러너, 서버 OS
+    runs-on: ubuntu-latest
+    # step의 집합
+    steps: 
+    - name: step1
+      run: echo hello world
