@@ -13,3 +13,8 @@ jobs:
     steps: 
     - name: step1
       run: echo hello world
+    - name: step2
+	    # 멀티 라인을 실행하려면 "|"를 사용
+      run: | 
+	      echo hello world
+		    echo github action
