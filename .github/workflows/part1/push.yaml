@@ -1,5 +1,5 @@
 # Action에서 표시되는 이름
-name: push-workflow 1
+name: push-workflow 2
 # 트리커할 이벤트
 on: push
 
